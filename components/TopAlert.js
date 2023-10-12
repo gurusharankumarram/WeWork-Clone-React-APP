@@ -5,12 +5,12 @@ import axios from 'axios';
 const TopAlert = () => {
     const [data, setData] = useState([])
 
-
   useEffect(() => {
     axios.get("http://localhost:5000/TopAlert")
       .then((res) => setData(res.data))
       .catch((err) => console.log(err));
   }, []);
+
     return (
         <div className="custom-alert-container">
             <a href="https://wework.co.in/" className="custom-page-alert">

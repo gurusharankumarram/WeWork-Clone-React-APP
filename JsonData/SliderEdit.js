@@ -3,17 +3,20 @@ import React, { useEffect, useState } from 'react';
 import { Link, Navigate, useNavigate } from 'react-router-dom';
 import './EditContent.css';
 
-const TopAlertView = () => {
+const SliderEdit = () => {
+
     const [data, setData] = useState([]);
     const navigate = useNavigate();
 
     const [formData, setFormData] = useState({
-        customPageAlertText: '',
-        customPageAlertCompanyName: '',
+        SliderImage1: '',
+        SliderImage2: '',
+        SliderImage3: '',
+        SliderImage4: '',
     });
 
     useEffect(() => {
-        axios.get("http://localhost:5000/TopAlert")
+        axios.get("http://localhost:5000/Slider")
             .then((res) => setData(res.data))
             .catch((err) => console.log(err));
     }, []);
@@ -32,26 +35,30 @@ const TopAlertView = () => {
     };
     const handleSubmit = (e) => {
         e.preventDefault();
-        axios.put('http://localhost:5000/TopAlert/1', formData)
+        axios.put('http://localhost:5000/Slider/3', formData)
             .then(res => {
                 alert('data updated successfully....')
                 navigate('/admin')
             })
     };
 
+
     return (
-        <div className='TopAlertEditContentContainer'>
+        <div className='SliderEditContentContainer'>
             <form onSubmit={handleSubmit}>
 
-                <h3 className='EditContentContainerHeading'>Top Alert Details</h3>
+                <h3 className='EditContentContainerHeading'>Slider Image Details</h3>
 
-                <div className='EditContentContainerText'>Top Alert Text:
-                    <input type="text" value={formData.customPageAlertText} onChange={handleChange} id="customPageAlertText" />
+                <div className='EditContentContainerText'>Slider Image 1:
+                    <input type="text" value={formData.SliderImage1} onChange={handleChange} id="SliderImage1" />
                 </div>
 
-                <div className='EditContentContainerCompanyName'>
-                    Top Alert Company Name:
-                    <input type="text" value={formData.customPageAlertCompanyName} onChange={handleChange} id="customPageAlertCompanyName" />
+                <div className='EditContentContainerText'>Slider Image 1:
+                    <input type="text" value={formData.SliderImage2} onChange={handleChange} id="SliderImage2" />
+                </div>
+
+                <div className='EditContentContainerText'>SliderImage 3:
+                    <input type="text" value={formData.SliderImage3} onChange={handleChange} id="Solutions" />
                 </div>
 
                 <div className='EditContentContainerButton'>
@@ -63,4 +70,4 @@ const TopAlertView = () => {
     );
 };
 
-export default TopAlertView;
+export default SliderEdit

@@ -1,4 +1,5 @@
-/* Header for "What are you looking for?" and "View all solutions --->" */
+/* workspace.css */
+
 .workspace-header {
   display: flex;
   justify-content: space-between;
@@ -31,7 +32,6 @@
   margin-right: 1rem;
 }
 
-/* Container for workspace cards */
 .workspace-container {
   display: flex;
   flex-wrap: wrap;
@@ -42,7 +42,6 @@
   margin-right: 5.8rem;
 }
 
-/* Individual workspace card */
 .workspace-card {
   display: flex;
   align-items: center;
@@ -60,15 +59,6 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-
-/* Workspace image */
-/* .workspace-image {
-  max-width: 100%;
-  height: auto;
-  margin-right: 1rem;
-  margin-left: 1rem;
-} */
-
 .workspace-image {
   width: 90px;
   height: auto;
@@ -78,7 +68,6 @@
 }
 
 
-/* Workspace title */
 .workspace-title {
   font-size: 1rem;
   font-weight: 400;
@@ -87,7 +76,6 @@
   margin-left: 1.5rem;
 }
 
-/* Workspace description */
 .workspace-description {
   color: #545e77;
   font-size: 0.75rem;
@@ -97,7 +85,6 @@
   margin-left: 1.5rem;
 }
 
-/* Team size text */
 .workspace-team-size {
   display: inline-flex;
   align-items: center;
@@ -163,5 +150,4 @@
   .workspace-team-size svg {
     margin: 0 auto;
   }
-
 }

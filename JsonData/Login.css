@@ -1,4 +1,4 @@
-/* Style the main container */
+/* login.css */
 .login-container {
     text-align: center;
     max-width: 600px;
@@ -7,7 +7,7 @@
     margin-top: 7rem;
     padding: 20px;
     border: 2px solid #117fb6;
-    border-radius: 2px 50px 2px 50px; /* Top-left, top-right, bottom-right, bottom-left */
+    border-radius: 2px 50px 2px 50px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
     background-color: #fff;
     transition: box-shadow 0.3s, transform 0.3s;
@@ -18,14 +18,11 @@
     transform: scale(1.01);
 }
 
-  
-  /* Style the login header */
   .login-header {
     font-size: 1.5rem;
     margin-bottom: 1rem;
   }
   
-  /* Style the form container */
   .login-form {
     width: 100%;
     display: flex;
@@ -33,12 +30,10 @@
     align-items: center;
   }
   
-  /* Style the form labels */
   .login-form-label {
     font-weight: bold;
   }
   
-  /* Style the input fields */
   .form-control {
     width: 550px;
     padding: 0.5rem;
@@ -48,12 +43,10 @@
     transition: border-color 0.3s ease-in-out;
   }
   
-  /* Add hover effect to input fields */
   .form-control:hover {
-    border-color: #007bff; /* Change border color on hover to blue */
+    border-color: #007bff;
   }
   
-  /* Style the login button */
   .login-button {
     width: 70%;
     height: 50px;
@@ -72,8 +65,7 @@
     justify-content: center;
 }
   
-  /* Add hover effect to login button */
   .login-button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #0056b3;
   }
   

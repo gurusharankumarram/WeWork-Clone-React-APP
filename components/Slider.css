@@ -1,34 +1,5 @@
-/* .img-container {
-    background: url("image/image1.jpg") center/cover no-repeat;
-    width: 68%;
-    min-height: 60vh;
-    border-radius: 1rem;
-    position: relative;
-    margin-left: 26%;
-    margin-top: 0.9%;
-  }
-  
-  .btn-right {
-    position: absolute;
-    top: 50%;
-    right: 0;
-    background-color: #3B117E;
-    color: #fff;
-    transform: translate(50%, -50%);
-    border: 0.2rem solid #3CBFF8;
-    font-size: 1.5rem;
-    padding: 15px;
-    cursor: pointer;
-  }
-  
-  .slider-image {
-    min-height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-   */
+/* Slider.CSS    */
 
-   
 .img-container {
   width: 72%;
   min-height: 90vh;
@@ -84,6 +55,7 @@ img {
   display: none;
 }
 
+/* Slider.css for mobile */
 
 @media (max-width: 768px) {
 
@@ -103,7 +75,6 @@ img {
     margin-right: auto;
     min-height: auto;
     position: relative;
-    /* margin-bottom: 1rem; */
   }
 
   .img-box {

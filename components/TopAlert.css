@@ -13,7 +13,6 @@
         padding-left: 7%;
     }
 
-    /* Add the CSS styles to the text inside .custom-page-alert */
     .custom-page-alert .custom-page-alert-text {
         font-family: "Apercu", Avenir, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, "Calibri", "Roboto", Arial, sans-serif;
         color: #000;

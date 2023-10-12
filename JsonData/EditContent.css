@@ -1,0 +1,473 @@
+/* Style the container */
+.TopAlertEditContentContainer {
+  max-width: 700px;
+  height: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.NavbarEditContentContainer {
+  max-width: 700px;
+  height: 550px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.SliderEditContentContainer {
+  max-width: 700px;
+  height: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.SliderFormEditContentContainer {
+  max-width: 700px;
+  height: 625px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+/*########################## workspce  #######################*/
+.WorkSpaceEditContentContainer {
+  max-width: 700px;
+  height: 525px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.WorkSpaceEditContentContainer1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.WorkSpaceEditContentContainer1 .EditContentContainerText {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.WorkSpaceEditContentContainer2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.WorkSpaceEditContentContainer2 .EditContentContainerText {
+  display: flex;
+  flex-direction: column;
+}
+
+.WorkSpaceEditContentContainer3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.WorkSpaceEditContentContainer3 .EditContentContainerText {
+  display: flex;
+  flex-direction: column;
+}
+
+.WorkSpaceEditContentContainer4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.WorkSpaceEditContentContainer4 .EditContentContainerText {
+  display: flex;
+  flex-direction: column;
+}
+
+/*########################## Special Offer  #######################*/
+
+.SpecialOfferEditContentContainer {
+  max-width: 700px;
+  height: 405px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.SpecialOfferEditContentContainer1 {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.SpecialOfferEditContentContainer1 .EditContentContainerText {
+  display: flex;
+  flex-direction: column;
+}
+
+/*########################## Solution for businesses  #######################*/
+
+.SolutionsForBusinessesEditContentContainer {
+  max-width: 700px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.SolutionsForBusinessesEditContentContainer1 {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.SolutionsForBusinessesEditContentContainer1 .EditContentContainerText {
+  display: flex;
+  flex-direction: column;
+}
+
+.SolutionsForBusinessesEditContentContainer2 {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.SolutionsForBusinessesEditContentContainer2 .EditContentContainerText {
+  display: flex;
+  flex-direction: column;
+}
+
+.SolutionsForBusinessesEditContentContainer3 {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.SolutionsForBusinessesEditContentContainer3 .EditContentContainerText {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/*########################## Contact Form  #######################*/
+.ContactFormEditContentContainer {
+  max-width: 700px;
+  height: 525px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.ContactFormEditContentContainer1 {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.ContactFormEditContentContainer1 .EditContentContainerText {
+  display: flex;
+  flex-direction: column;
+}
+
+.ContactFormEditContentContainer2 {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.ContactFormEditContentContainer2 .EditContentContainerText {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/*########################## Empowering tomorrow’s  #######################*/
+
+.EmpoweringTomorrowEditContentContainer {
+  max-width: 90%;
+  height: 525px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.EmpoweringTomorrowEditContentContainer1 {
+  width: 95%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.EmpoweringTomorrowEditContentContainer1 .EditContentContainerText {
+  display: flex;
+  flex-direction: column;
+}
+
+/*########################## Workspace Trends #######################*/
+
+.WorkspaceTrendsEditContentContainer {
+  max-width: 90%;
+  height: 525px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.WorkspaceTrendsEditContentContainer1 {
+  width: 95%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.WorkspaceTrendsEditContentContainer1 .EditContentContainerText {
+  display: flex;
+  flex-direction: column;
+}
+
+/*########################## Blog #######################*/
+
+.BlogEditContentContainer {
+  max-width: 90%;
+  height: 525px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.BlogEditContentContainer1 {
+  width: 95%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.BlogEditContentContainer1 .EditContentContainerText {
+  display: flex;
+  flex-direction: column;
+}
+
+.BlogEditContentContainer2 {
+  width: 95%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.BlogEditContentContainer2 .EditContentContainerText {
+  display: flex;
+  flex-direction: column;
+}
+
+.BlogEditContentContainer3 {
+  width: 95%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.BlogEditContentContainer3 .EditContentContainerText {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/*########################## Footer #######################*/
+
+.FooterEditContentContainer {
+  max-width: 90%;
+  height: auto;
+  margin: 0 auto;
+  padding: 5px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.FooterEditContentContainer1 {
+  width: 95%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.FooterEditContentContainer1 .EditContentContainerText {
+  display: flex;
+  flex-direction: column;
+}
+.FooterEditContentContainer .EditContentContainerText {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+.EditContentContainerHeading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.EditContentContainerText,
+.EditContentContainerCompanyName {
+  margin-bottom: 15px;
+}
+
+input[type="text"] {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.EditContentContainerButton {
+  display: flex;
+  justify-content: left;
+  gap: 2rem;
+}
+
+.TopAlertEditlink {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.TopAlertEditlinkView {
+  padding: 10px 20px;
+  background-color: #7296b9;
+  width: 90%;
+  border-radius: 10px;
+  margin-top: 1rem;
+  margin-left: 4rem;
+}
+
+.TopAlertEditlink:hover {
+  background-color: #022e5d;
+}

@@ -1,9 +1,8 @@
 import React from 'react'
-import TopAlert from '../components/TopAlert';
 import { Link } from 'react-router-dom';
-import './EditContent.css';
+import Component6Ideas from '../components/Component6Ideas';
 
-const TopAlertEditlinkbackButtonStyle = {
+const WorkspaceTrendsEditlinkbackButtonStyle = {
   padding: '10px 20px',
   backgroundColor: '#007bff',
   color: '#fff',
@@ -13,17 +12,19 @@ const TopAlertEditlinkbackButtonStyle = {
   marginLeft: '-2rem',
 };
 
-const TopAlertView = () => {
+
+const WorkspaceTrendsView = () => {
   return (
     <>
       <div className='TopAlertEditlinkView'>
-        <Link to='/admin' style={TopAlertEditlinkbackButtonStyle}>
+        <Link to='/admin' style={WorkspaceTrendsEditlinkbackButtonStyle}>
           Back
         </Link>
       </div>
-      <TopAlert />
+      <Component6Ideas />
     </>
   )
 }
 
-export default TopAlertView
+
+export default WorkspaceTrendsView

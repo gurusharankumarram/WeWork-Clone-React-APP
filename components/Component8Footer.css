@@ -4,7 +4,6 @@
     background-color: #f7f7f7;
 }
 
-/* Layout for left and right sections */
 .Footer {
     display: flex;
     justify-content: space-between;
@@ -23,7 +22,6 @@
     width: 20%;
 }
 
-/* Styles for left section (Company, Partnerships, Support) */
 .FooterMenu {
     margin-right: 20px;
 }
@@ -54,9 +52,6 @@
     margin-bottom: 5px;
 }
 
-/* Styles for right section (Social Media) */
-
-
 .FooterSocialMenu {
     list-style: none;
     padding: 0;
@@ -72,8 +67,6 @@
     color: black;
 }
 
-
-/* Styles for right section (Language) */
 .FooterLanguage {
     margin-bottom: 15px;
     position: relative;
@@ -102,7 +95,6 @@
     border-radius: 4px;
 }
 
-/* Styles for 2nd div all alnguage option */
 .FooterLanguageOptions select {
     flex: 1;
     width: 100%;
@@ -124,7 +116,6 @@
     color: #0000ff;
 }
 
-
 .FooterMenusAllLocation {
     font-size: 18px;
     font-family: "Apercu Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -139,15 +130,12 @@
     text-decoration: none;
 }
 
-
-/* Styles for 3rd div address, legal and footer logo style */
 .FooterMenusBottom {
     display: flex;
     justify-content: space-between;
     padding: 50px 40px;
 }
 
-/* Styles for "Contact" address */
 .FooterContact {
     margin-top: 20px;
     margin-left: 2.5rem;
@@ -162,13 +150,11 @@
 .FooterAddress p {
     color: black;
     font-size: 17px;
-    /* font-family: "Apercu Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
     font-family: "Apercu", "SFMono-Regular", monospace;
     line-height: 10px;
     font-weight: 400;
 }
 
-/* Styles for "Legal" and "Copyright" section */
 .FooterLegalMenu {
     list-style: none;
     padding: 0;
@@ -199,11 +185,9 @@
     color: #666666;
     font-family: "Apercu", Avenir, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, "Calibri", "Roboto", Arial, sans-serif;
     font-size: 18px;
-    /* margin-right: 6rem; */
     margin-right: -31rem;
 }
 
-/* Styles for footer logo */
 .FooterLogo {
     margin-top: 5rem;
     margin-right: 2rem;
@@ -216,11 +200,8 @@
 }
 
 
-
 /* Media query for mobile devices */
 @media (max-width: 768px) {
-
-    /* Reset some styles */
     .FooterMenus {
         flex-direction: column;
         width: auto;
@@ -241,13 +222,11 @@
 
     }
 
-    /* Adjust language dropdown and "All locations" styles */
     .FooterLanguage {
         margin: 0;
         display: none;
     }
 
-    /* Styles for right section (Language) */
     .FooterLanguageMobile {
         width: 85%;
         margin: 0;
@@ -276,7 +255,6 @@
         border-radius: 4px;
     }
 
-    /* Styles for 2nd div all alnguage option */
     .FooterLanguageOptionsMobile select {
         flex: 1;
         width: 45%;
@@ -305,8 +283,6 @@
         margin-top: 2.5rem;
     }
 
-
-    /* Adjust address, legal, and logo styles */
     .FooterMenusBottom {
         flex-direction: column;
         margin-top: -1rem;

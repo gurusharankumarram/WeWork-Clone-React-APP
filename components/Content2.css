@@ -6,7 +6,6 @@
     color: blue;
 }
 
-
 .content2-container {
     display: flex;
     justify-content: space-between;
@@ -16,22 +15,18 @@
     margin-right: 23px;
     margin-top: 40px;
     width: 511.97px;
-    /* height: 1320px; */
     height: 600px;
     margin-bottom: -5rem;
     margin-top: -1rem;
 }
 
 .content2-page {
-    /* max-width: 1200px; */
     background: linear-gradient(to bottom, #f4f1f17c 40%, white);
-    /* background: linear-gradient(to bottom, #9761617c 5%, white); */
     border-top-right-radius: 35%;
     margin-bottom: 5px;
     margin: auto;
     margin-left: 8rem;
     width: 511.97px;
-    /* height: 1224px; */
 }
 
 .content2-grid {
@@ -59,7 +54,6 @@
     font-family: "WeWork Serif", "Georgia", "serif"
 }
 
-
 .content2-description {
     text-align: left;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
@@ -69,7 +63,6 @@
     margin-bottom: 1rem;
     margin-right: 2.5rem;
 }
-
 
 content2nav {
     display: flex;
@@ -113,7 +106,6 @@ content2nav {
 }
 
 .content2-card {
-    /* margin-top: 20px; */
     padding: 0.5rem 0;
 }
 
@@ -132,9 +124,6 @@ content2nav {
 }
 
 .content2-text {
-    /* font-size: 16px;
-    margin-bottom: 10px; */
-
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.75rem;
@@ -149,8 +138,6 @@ content2nav {
 }
 
 .content2-learn-more a {
-    /* color: blue;
-    text-decoration: underline; */
     color: blue;
     text-decoration: none;
     background: none;

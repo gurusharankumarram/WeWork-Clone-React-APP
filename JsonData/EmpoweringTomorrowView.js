@@ -1,9 +1,8 @@
 import React from 'react'
-import TopAlert from '../components/TopAlert';
 import { Link } from 'react-router-dom';
-import './EditContent.css';
+import Component5Empowering from '../components/Component5Empowering';
 
-const TopAlertEditlinkbackButtonStyle = {
+const EmpoweringTomorrowEditlinkbackButtonStyle = {
   padding: '10px 20px',
   backgroundColor: '#007bff',
   color: '#fff',
@@ -13,17 +12,17 @@ const TopAlertEditlinkbackButtonStyle = {
   marginLeft: '-2rem',
 };
 
-const TopAlertView = () => {
+const EmpoweringTomorrowView = () => {
   return (
     <>
       <div className='TopAlertEditlinkView'>
-        <Link to='/admin' style={TopAlertEditlinkbackButtonStyle}>
+        <Link to='/admin' style={EmpoweringTomorrowEditlinkbackButtonStyle}>
           Back
         </Link>
       </div>
-      <TopAlert />
+      <Component5Empowering />
     </>
   )
 }
 
-export default TopAlertView
+export default EmpoweringTomorrowView

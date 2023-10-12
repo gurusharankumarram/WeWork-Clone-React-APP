@@ -1,9 +1,9 @@
-import React from 'react'
-import TopAlert from '../components/TopAlert';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import './EditContent.css';
+import Content3 from '../components/Content3';
 
-const TopAlertEditlinkbackButtonStyle = {
+const ContactFormEditlinkbackButtonStyle = {
   padding: '10px 20px',
   backgroundColor: '#007bff',
   color: '#fff',
@@ -13,17 +13,17 @@ const TopAlertEditlinkbackButtonStyle = {
   marginLeft: '-2rem',
 };
 
-const TopAlertView = () => {
+const ContactFormView = () => {
   return (
     <>
       <div className='TopAlertEditlinkView'>
-        <Link to='/admin' style={TopAlertEditlinkbackButtonStyle}>
+        <Link to='/admin' style={ContactFormEditlinkbackButtonStyle}>
           Back
         </Link>
       </div>
-      <TopAlert />
+      <Content3 />
     </>
-  )
-}
+  );
+};
 
-export default TopAlertView
+export default ContactFormView;

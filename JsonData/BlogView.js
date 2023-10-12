@@ -1,9 +1,8 @@
 import React from 'react'
-import TopAlert from '../components/TopAlert';
 import { Link } from 'react-router-dom';
-import './EditContent.css';
+import Component7Blog from '../components/Component7Blog';
 
-const TopAlertEditlinkbackButtonStyle = {
+const BlogEditlinkbackButtonStyle = {
   padding: '10px 20px',
   backgroundColor: '#007bff',
   color: '#fff',
@@ -13,17 +12,17 @@ const TopAlertEditlinkbackButtonStyle = {
   marginLeft: '-2rem',
 };
 
-const TopAlertView = () => {
+const BlogView = () => {
   return (
     <>
       <div className='TopAlertEditlinkView'>
-        <Link to='/admin' style={TopAlertEditlinkbackButtonStyle}>
+        <Link to='/admin' style={BlogEditlinkbackButtonStyle}>
           Back
         </Link>
       </div>
-      <TopAlert />
+      <Component7Blog />
     </>
   )
 }
 
-export default TopAlertView
+export default BlogView

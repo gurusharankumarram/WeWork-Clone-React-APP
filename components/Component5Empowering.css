@@ -81,8 +81,7 @@ p {
   display: none;
 }
 
-
-/* Media query for screens with a maximum width of 768px (typical for mobile devices) */
+/* Component5Empowering.css for mobile */
 @media (max-width: 768px) {
   .Component5Container {
     width: 100%;
@@ -93,20 +92,16 @@ p {
 
   .Component5ContainerText {
     flex-direction: column;
-    /* Stack text and "View more" button */
     text-align: left;
     margin-top: 0;
-    /* Reset margin */
   }
 
   .Component5ContainerText1 {
     width: 100%;
-    /* Full width for text */
   }
 
   h2 {
     font-size: 24px;
-    /* Adjust font size */
     margin-bottom: 1rem;
     justify-content: left;
   }

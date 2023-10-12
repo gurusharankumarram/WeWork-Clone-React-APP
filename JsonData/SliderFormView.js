@@ -1,9 +1,9 @@
 import React from 'react'
-import TopAlert from '../components/TopAlert';
+import Slider from '../components/Slider'
 import { Link } from 'react-router-dom';
-import './EditContent.css';
+import SliderForm from '../components/SliderForm';
 
-const TopAlertEditlinkbackButtonStyle = {
+const SliderEditlinkbackButtonStyle = {
   padding: '10px 20px',
   backgroundColor: '#007bff',
   color: '#fff',
@@ -13,17 +13,18 @@ const TopAlertEditlinkbackButtonStyle = {
   marginLeft: '-2rem',
 };
 
-const TopAlertView = () => {
+
+const SliderFormView = () => {
   return (
     <>
       <div className='TopAlertEditlinkView'>
-        <Link to='/admin' style={TopAlertEditlinkbackButtonStyle}>
+        <Link to='/admin' style={SliderEditlinkbackButtonStyle}>
           Back
         </Link>
       </div>
-      <TopAlert />
+      <SliderForm />
     </>
   )
 }
 
-export default TopAlertView
+export default SliderFormView

@@ -1,4 +1,4 @@
-/* Container for the slider form */
+/* slider form  css*/
 .slider-form-container {
   background-color: #fff;
   padding: 20px;
@@ -17,8 +17,6 @@
   position: absolute;
 }
 
-
-/* Title styling */
 .slider-form-title {
   font-size: 2rem;
   font-weight: 600;
@@ -30,7 +28,6 @@
   text-align: start;
 }
 
-/* Description styling */
 .slider-form-description {
   font-size: 1.05rem;
   font-weight: 400;
@@ -43,8 +40,6 @@
   vertical-align: baseline;
 }
 
-
-/* Form item container with hover effect */
 .form-item {
   margin-bottom: 15px;
   position: relative;
@@ -52,24 +47,18 @@
   cursor: pointer;
 }
 
-/* Add hover effect */
 .form-item:hover {
-  /* Change input field border color on hover */
   border-color: #0000FF;
 
-  /* Change location icon color on hover */
   .select-icon {
     color: #0000FF;
   }
 
-  /* Change label color on hover */
   .location-label {
     color: #0000FF;
   }
 }
 
-
-/* Location label */
 .location-label {
   position: absolute;
   top: -10px;
@@ -82,14 +71,12 @@
 
 }
 
-/* Location icon */
 .select-icon {
   margin-right: 0.1rem;
   margin-left: 0.3rem;
   color: #1c1c1c;
 }
 
-/* Select container with icon */
 .select-container {
   display: flex;
   align-items: center;
@@ -98,7 +85,6 @@
   padding: 0.5rem;
 }
 
-/* Select input styling */
 select {
   flex: 1;
   width: 100%;
@@ -108,7 +94,6 @@ select {
   outline: none;
 }
 
-/* Submit button styling */
 .submit-button {
   background-color: #0000FF;
   color: #fff;
@@ -122,7 +107,6 @@ select {
   margin-top: 7px;
 }
 
-/* Submit button hover styling */
 .submit-button:hover {
   background-color: #0202c0;
 }
@@ -142,7 +126,6 @@ select {
     margin-left: auto;
     margin-right: auto;
     height: auto; 
-    /* margin-top: 9rem; */
     margin-top: 9rem;
   }
 
