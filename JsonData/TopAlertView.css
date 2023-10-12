@@ -1,0 +1,24 @@
+.TopAlertEditlink-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.TopAlertEditlink {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #007BFF;
+    color: #007BFF;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.TopAlertEditlink:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+.mb-2 strong {
+    color: rgb(50, 50, 50);
+}

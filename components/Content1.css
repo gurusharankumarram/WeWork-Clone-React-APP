@@ -1,0 +1,131 @@
+/* CSS for Content1 component */
+.Content1-content-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin-left: 6.5rem;
+  margin-right: 2.3rem;
+}
+
+.Content1-image-container {
+  flex: 1;
+  margin-right: 20px;
+  background-color: #E3E3E3;
+}
+
+.Content1-content-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+}
+
+.Content1-text-container {
+  color: #000000;
+  font-size: 16px;
+  font-family: "Apercu", Avenir, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, "Calibri", "Roboto", Arial, sans-serif;
+  margin: 0px 12px;
+  padding: 0px 0px 0px 32px;
+  margin-right: 3rem;
+  width: 40%;
+}
+
+.Content1-promo-tag {
+  background: #ffcc00;
+  height: 1.3rem;
+  line-height: 1.3rem;
+  margin-bottom: 0.5rem;
+  border: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+
+
+  font-family: "Apercu Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  border: 1px solid #b3b3b3;
+  border-radius: 0.25rem;
+  display: inline-block;
+  padding: 0.125rem 0.5rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+.Content1-title {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2.75rem;
+  margin-bottom: 1rem;
+  font-family: "WeWork Serif", "Georgia", serif;
+  color: #000;
+  margin-top: -1px;
+}
+
+.Content1-description {
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.75rem;
+  /* margin-bottom: 1rem; */
+  margin: 0px 0px 16px;
+  font-family: "Apercu Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  color: #000;
+}
+
+.Content1-learn-more-link {
+  color: blue;
+  text-decoration: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  font-family: "Apercu", Avenir, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, "Calibri", "Roboto", Arial, sans-serif;
+}
+
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .Content1-content-container {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .Content1-image-container {
+    margin: 0;
+  }
+
+  .Content1-text-container {
+    margin-top: 2rem;
+    width: 100%;
+    padding: 0;
+    margin-left: 3rem;
+  }
+  .Content1-title{
+    margin-top: 0.3rem;
+    font-size: 22px;
+    line-height: 2rem;
+  }
+
+  .Content1-description{
+    font-size: 15px;
+  }
+  .Content1-learn-more-link {
+    color: blue;
+    text-decoration: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: none;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    font-family: "Apercu", Avenir, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, "Calibri", "Roboto", Arial, sans-serif;
+    margin-bottom: 2rem;
+  }
+}

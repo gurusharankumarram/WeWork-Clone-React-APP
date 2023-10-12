@@ -1,0 +1,360 @@
+/* Component8Footer.css */
+
+.FooterContainer {
+    background-color: #f7f7f7;
+}
+
+/* Layout for left and right sections */
+.Footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 40px;
+}
+
+.FooterMenus {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+.FooterMenusRight {
+    width: 20%;
+}
+
+/* Styles for left section (Company, Partnerships, Support) */
+.FooterMenu {
+    margin-right: 20px;
+}
+
+.FooterMenuHeading {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #666666;
+    font-size: 18px;
+    font-family: "Apercu", Avenir, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, "Calibri", "Roboto", Arial, sans-serif;
+}
+
+.FooterMenuList {
+    list-style: none;
+    padding: 0;
+    font-size: 17px;
+    font-family: "Apercu", Avenir, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, "Calibri", "Roboto", Arial, sans-serif;
+}
+
+.FooterMenuList li a {
+    margin-top: 10px;
+}
+
+.FooterLink {
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Styles for right section (Social Media) */
+
+
+.FooterSocialMenu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-right: 2.5rem;
+}
+
+.FooterIcon {
+    font-size: 24px;
+    margin-right: 15px;
+    color: black;
+}
+
+
+/* Styles for right section (Language) */
+.FooterLanguage {
+    margin-bottom: 15px;
+    position: relative;
+    margin-top: 3rem;
+    margin-right: 2rem;
+    margin-left: -5rem;
+    cursor: pointer;
+    font-size: 9rem;
+}
+
+.FooterLanguage-label {
+    position: absolute;
+    top: -10px;
+    left: 13px;
+    padding: 0 5px;
+    background-color: #fff;
+    color: #7f7f7f;
+    font-size: medium;
+    font-weight: 400;
+}
+
+.FooterLanguageOptions {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Styles for 2nd div all alnguage option */
+.FooterLanguageOptions select {
+    flex: 1;
+    width: 100%;
+    padding: 1.25rem;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+}
+
+.FooterLanguage:hover .FooterLanguage-label {
+    color: #0000ff;
+}
+
+.FooterLanguage:hover .FooterLanguageOptions {
+    border-color: #0000ff;
+}
+
+.FooterLanguage:hover .FooterLanguageOptions select {
+    color: #0000ff;
+}
+
+
+.FooterMenusAllLocation {
+    font-size: 18px;
+    font-family: "Apercu Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    color: #0000ff;
+    margin-left: 2.5rem;
+    margin-top: -1rem;
+    margin-bottom: -2rem;
+    cursor: pointer;
+}
+
+.FooterMenusAllLocation a {
+    text-decoration: none;
+}
+
+
+/* Styles for 3rd div address, legal and footer logo style */
+.FooterMenusBottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 40px;
+}
+
+/* Styles for "Contact" address */
+.FooterContact {
+    margin-top: 20px;
+    margin-left: 2.5rem;
+}
+
+.FooterContact a {
+    text-decoration: none;
+    font-size: 22px;
+    font-family: "Apercu", "SFMono-Regular", monospace;
+}
+
+.FooterAddress p {
+    color: black;
+    font-size: 17px;
+    /* font-family: "Apercu Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
+    font-family: "Apercu", "SFMono-Regular", monospace;
+    line-height: 10px;
+    font-weight: 400;
+}
+
+/* Styles for "Legal" and "Copyright" section */
+.FooterLegalMenu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    margin-right: -31rem;
+}
+
+.FooterLegalMenu a {
+    font-family: "Apercu", Avenir, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, "Calibri", "Roboto", Arial, sans-serif;
+    font-size: 17px;
+}
+
+
+.FooterLegalMenuItem {
+    margin-right: 20px;
+}
+
+.FooterLegalLink {
+    text-decoration: none;
+    color: blue;
+}
+
+.FooterCopyright {
+    margin-top: 25px;
+    text-align: end;
+    color: #666666;
+    font-family: "Apercu", Avenir, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, "Calibri", "Roboto", Arial, sans-serif;
+    font-size: 18px;
+    /* margin-right: 6rem; */
+    margin-right: -31rem;
+}
+
+/* Styles for footer logo */
+.FooterLogo {
+    margin-top: 5rem;
+    margin-right: 2rem;
+    height: 58px;
+    width: 58px;
+}
+
+.FooterLanguageMobile {
+    display: none;
+}
+
+
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+
+    /* Reset some styles */
+    .FooterMenus {
+        flex-direction: column;
+        width: auto;
+        margin-left: 0;
+    }
+
+    .FooterMenu {
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+
+    .FooterMenusRight {
+        width: 90%;
+        margin-top: -40px;
+        margin-left: -8rem;
+        margin-right: 0;
+        display: block;
+
+    }
+
+    /* Adjust language dropdown and "All locations" styles */
+    .FooterLanguage {
+        margin: 0;
+        display: none;
+    }
+
+    /* Styles for right section (Language) */
+    .FooterLanguageMobile {
+        width: 85%;
+        margin: 0;
+        position: relative;
+        margin-top: -3.5rem;
+        margin-left: 2rem;
+        cursor: pointer;
+        display: block;
+    }
+
+    .FooterLanguage-labelMobile {
+        position: absolute;
+        top: -10px;
+        left: 13px;
+        padding: 0 5px;
+        background-color: #fff;
+        color: #7f7f7f;
+        font-size: medium;
+        font-weight: 400;
+    }
+
+    .FooterLanguageOptionsMobile {
+        display: flex;
+        align-items: center;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+    }
+
+    /* Styles for 2nd div all alnguage option */
+    .FooterLanguageOptionsMobile select {
+        flex: 1;
+        width: 45%;
+        padding: 1rem;
+        font-size: 1.2rem;
+        border: none;
+        outline: none;
+    }
+
+    .FooterLanguageMobile:hover .FooterLanguage-labelMobile {
+        color: #0000ff;
+    }
+
+    .FooterLanguageMobile:hover .FooterLanguageOptionsMobile {
+        border-color: #0000ff;
+    }
+
+    .FooterLanguageMobile:hover .FooterLanguageOptionsMobile select {
+        color: #0000ff;
+    }
+
+    .FooterMenusAllLocation {
+        margin: 0;
+        text-align: left;
+        margin-left: 1.5rem;
+        margin-top: 2.5rem;
+    }
+
+
+    /* Adjust address, legal, and logo styles */
+    .FooterMenusBottom {
+        flex-direction: column;
+        margin-top: -1rem;
+    }
+
+    .FooterContact {
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        font-size: 14px;
+    }
+
+    .FooterContact a {
+        font-size: 20px;
+    }
+
+    .FooterContact p {
+        font-size: 18px;
+    }
+
+    .FooterLegalMenu {
+        margin: 0;
+        text-align: left;
+        margin-top: 1.5rem;
+    }
+
+    .FooterLegal ul li {
+        margin: 0;
+        padding: 0;
+        margin-top: 5px;
+        margin-right: 9px;
+    }
+
+    .FooterLegalMenuItem {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .FooterCopyright {
+        margin: 0;
+        text-align: left;
+        width: 80%;
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .FooterLogo {
+        margin: 0;
+        margin-top: 1rem;
+    }
+}

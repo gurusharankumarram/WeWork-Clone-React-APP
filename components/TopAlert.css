@@ -1,0 +1,51 @@
+/* Additional CSS for .custom-page-alert */
+@media (min-width: 100px) {
+    .custom-page-alert {
+        padding: 0;
+        text-decoration: none;
+    }
+
+    .custom-page-alert {
+        background-color: rgba(0, 0, 255, 0.1);
+        min-height: 2.3rem;
+        display: flex;
+        align-items: center;
+        padding-left: 7%;
+    }
+
+    /* Add the CSS styles to the text inside .custom-page-alert */
+    .custom-page-alert .custom-page-alert-text {
+        font-family: "Apercu", Avenir, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, "Calibri", "Roboto", Arial, sans-serif;
+        color: #000;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 1.618;
+    }
+
+    .custom-page-alert-CompanyName {
+        color: #0000ff;
+    }
+}
+
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 767px) {
+    .custom-alert-container {
+        width: 100%;
+        height: 80px;
+        overflow-x: hidden;
+    }
+
+    .custom-page-alert {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+    }
+
+    .custom-page-alert .custom-text--body-small {
+        font-size: 15px;
+    }
+}

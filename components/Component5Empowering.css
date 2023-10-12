@@ -1,0 +1,163 @@
+/* Component5Empowering.css */
+
+.Component5Container {
+  width: 89%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-left: 5.1rem;
+}
+
+.Component5ContainerText {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  margin-top: -5rem;
+}
+
+.Component5ContainerText1 {
+  margin-bottom: 20px;
+  width: 60%;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  font-size: 32px;
+  font-family: "WeWork Serif" Georgia, serif;
+  font-weight: 600;
+}
+
+p {
+  font-size: 21px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.Component5ContainerTextViewMore {
+  font-size: 16px;
+  cursor: pointer;
+  color: #0000ff;
+  margin-right: 1%;
+}
+
+.Component5ContainerCards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.Component5ContainerCard {
+  background-color: #f7f7f7;
+  height: 75px;
+  width: 150px;
+  padding: 18px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.Component5ContainerCard img {
+  max-width: 100px;
+  height: auto;
+  margin: 10px;
+}
+
+.Component5ContainerCardsMobile {
+  display: none;
+}
+
+.Component5ContainerTextViewMoreMobile {
+  display: none;
+}
+
+
+/* Media query for screens with a maximum width of 768px (typical for mobile devices) */
+@media (max-width: 768px) {
+  .Component5Container {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-top: -2rem;
+  }
+
+  .Component5ContainerText {
+    flex-direction: column;
+    /* Stack text and "View more" button */
+    text-align: left;
+    margin-top: 0;
+    /* Reset margin */
+  }
+
+  .Component5ContainerText1 {
+    width: 100%;
+    /* Full width for text */
+  }
+
+  h2 {
+    font-size: 24px;
+    /* Adjust font size */
+    margin-bottom: 1rem;
+    justify-content: left;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .Component5ContainerTextViewMore {
+    margin-top: 1rem;
+    display: none;
+  }
+
+  .Component5ContainerTextViewMoreMobile {
+    font-size: 16px;
+    cursor: pointer;
+    color: #0000ff;
+    margin-left: -15rem;
+  }
+
+  .Component5ContainerCards {
+    display: none;
+  }
+
+  .Component5ContainerCardsMobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    margin-bottom: 1rem;
+  }
+
+  .Component5ContainerCardsMobiles {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 1rem;
+  }
+
+  .Component5ContainerCardMobile {
+    background-color: #f7f7f7;
+    height: 50px;
+    width: 125px;
+    padding: 18px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Component5ContainerCardMobile img {
+    max-width: 80px;
+  }
+}

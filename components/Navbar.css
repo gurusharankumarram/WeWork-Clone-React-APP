@@ -1,0 +1,152 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 6.5% 10px 6.5%;
+    /* 7% padding on left and right */
+    background-color: #fff;
+    margin-top: 10px;
+    /* border-bottom: 1px solid #ccc; */
+}
+
+.nav-container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 0.5rem;
+}
+
+.nav-inner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-logo a {
+    text-decoration: none;
+}
+
+.nav-logo-image {
+    width: 115px;
+    height: 25px;
+    margin-right: 3rem;
+}
+
+.nav-menu-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.nav-menu-item {
+    margin-right: 2.5rem;
+
+}
+
+.nav-menu-item:last-child {
+    margin-right: 0;
+}
+
+.nav-menu-list a::after {
+    content: '';
+    width: 0;
+    height: 2.5px;
+    background-color: #000;
+    margin: auto;
+    display: block;
+}
+
+.nav-menu-list a:hover::after {
+    width: 100%;
+    transition: width 0.3s linear;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    /* Pushes Contact Us and Member Log In to the right */
+}
+
+.nav-contact-us {
+    line-height: 1.5rem;
+    display: inline-block;
+    border: 0.0625rem solid blue;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    padding: 0.4375rem 1rem;
+}
+
+.nav-contact-us a {
+    text-decoration: none;
+    background-color: #fff;
+    color: blue;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.nav-login a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    margin-left: 2.5rem;
+    font-size: 1rem;
+}
+
+.navFaBar {
+    display: none;
+}
+
+/* Add a media query for mobile devices */
+@media (max-width: 768px) {
+    .navbar {
+        width: 85%;
+        padding-top: 1rem;
+        display: flex;
+        overflow-x: hidden;
+        margin-top: -0.5rem;
+    }
+
+    .nav-menu-wrapper {
+        display: none;
+    }
+
+    .navFaBar {
+        display: block;
+        margin-bottom: 1.9rem;
+        width: 90px;
+        margin-left: -10px;
+    }
+
+    .nav-logo {
+        margin-left: 1.5rem;
+        margin-bottom: 2rem;
+
+    }
+
+    .nav-actions {
+        margin-left: 20px;
+    }
+
+    .nav-contact-us {
+        margin-left: 8px;
+        margin-bottom: 2rem;
+        width: 90px;
+    }
+
+    .nav-login {
+        display: none;
+    }
+}

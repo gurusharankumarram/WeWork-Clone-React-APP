@@ -1,0 +1,191 @@
+{
+  "TopAlert": [
+    {
+      "id": 1,
+      "customPageAlertText": "For the latest information about WeWork locations in India, please visit the local website.",
+      "customPageAlertCompanyName": "WeWork India"
+    }
+  ],
+  "Navbar": [
+    {
+      "id": 2,
+      "navLogo": "data:image/png;base64,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",
+      "FindALocation": "Global",
+      "Solutions": "Solutions",
+      "Enterprise": "Enterprise",
+      "ContactUs": "Contact Us",
+      "AdminLogIn": "Admin  Log In"
+    }
+  ],
+  "Slider": [
+    {
+      "id": 3,
+      "SliderImage1": "https://ctfassets.imgix.net/vh7r69kgcki3/IR4X2nxMxDfrFd3juRWog/9f4ff53e7048c0f85ef5df766d4aa3da/Web_150DPI-20201217_WeWork_Km_5_Av_Las_Palmas_-_Medellin_007.jpg?auto=format%20compress&fit=crop&q=50&w=1350&h=759",
+      "SliderImage2": "https://ctfassets.imgix.net/vh7r69kgcki3/1jUvhrkq5ZQQxqs0Ce7X8A/14727e9df844c460fe2446ef40b48ee0/Web_150DPI-2023_04_15_ATL_Lifestyle_Staged_Meeting_Room_05659_1.jpg?auto=format%20compress&fit=crop&q=50&w=1350&h=759",
+      "SliderImage3": "https://ctfassets.imgix.net/vh7r69kgcki3/HsR6nHqS3I8CxPIuT9EKD/92d775ed2747927686ec6a2f21d4864f/Web_150DPI-20221216_WeWork_Product_Shoot_Q4_8.jpg?auto=format%20compress&fit=crop&q=50&w=1350&h=759",
+      "SliderImage4": "https://ctfassets.imgix.net/vh7r69kgcki3/3vQjeSH3bOP97yUEuxDutd/4eef3920a7b97fd95ed1e5ec9d59ca05/Web_150DPI-GATEWAY_6_Conference_Room_0551.jpg?auto=format%20compress&fit=crop&q=50&w=1350&h=759"
+    }
+  ],
+  "SliderForm": [
+    {
+      "id": 4,
+      "SliderFormTitle": "For all the ways you work, we're here",
+      "SliderFormDescription": "Find a location near you. Explore memberships and move-in ready offices for individuals or companies of all sizes.",
+      "LocationLabel": "Find Workspace In",
+      "LocationsDropdownOption1": "Delhi",
+      "LocationsDropdownOption2": "Gurgaon",
+      "LocationsDropdownOption3": "Patna",
+      "LocationsDropdownOption4": "Noida"
+    }
+  ],
+  "WorkSpace": [
+    {
+      "id": 5,
+      "leftText": "What are you looking for?",
+      "rightText": "View all solutions",
+      "workspaceTitle1": "Private Office",
+      "workspaceDescription1": "Move-in ready offices for teams of all sizes",
+      "workspaceTeamSize1": ": 1-100+",
+      "workspaceTitle2": "Dedicated Desk",
+      "workspaceDescription2": "Your own desk in a shared office",
+      "workspaceTeamSize2": ": 1-200+",
+      "workspaceTitle3": "Meeting Room",
+      "workspaceDescription3": "Private rooms bookable by the hour",
+      "workspaceTeamSize3": ": 1-20+",
+      "workspaceTitle4": "Coworking Membership",
+      "workspaceDescription4": "Hot desks, lounges, phone booths & more",
+      "workspaceTeamSize4": ": 1+"
+    }
+  ],
+  "SpecialOffer": [
+    {
+      "id": 6,
+      "Content1ContentImage": "https://ctfassets.imgix.net/vh7r69kgcki3/4loHLz4ATsoKXI92LVLzml/a8adcbd1de700f7545875713176474ce/Web_150DPI-2023_04_15_ATL_Lifestyle_Hot_Desk_01855.jpg?auto=format%20compress&fit=crop&q=50&w=500px",
+      "Content1PromoTag": "INTRODUCTORY PRICING",
+      "Content1Title": "Get 15% off WeWork All Access with this special offer",
+      "Content1Description": "Unlock workspace near you with 15% off WeWork All Access monthly membership fees for 6 months. Terms apply.",
+      "Content1LearnMoreLink": "learn more"
+    }
+  ],
+  "SolutionsForBusinesses": [
+    {
+      "id": 7,
+      "selectedTab0Image": "https://ctfassets.imgix.net/vh7r69kgcki3/3JmE8nqDzhWqtltmCZxk9s/6f1486080c47f60696fc2ff5bc3b12bf/Web_150DPI-20221216_WeWork_Product_Shoot_Q4_15.jpg?auto=format%20compress&fit=crop&q=50&w=1000&h=1333",
+      "selectedTab1Image": "https://ctfassets.imgix.net/vh7r69kgcki3/26TzoOG2rJL8pR7WngRghr/b8c2ea28d805ab00a2e331e5705f5100/Web_150DPI-Andrea_Calo_609Main_17856__1_.jpg?auto=format%20compress&fit=crop&q=50&w=1350&h=1800",
+      "content2Title": "Solutions for businesses of all sizes",
+      "content2Tab1": "For individuals/small teams",
+      "content2Tab2": "For medium/large companies",
+      "content2Tab1Text1": "Flexible memberships and turnkey offices that fit all budgets and hybrid strategies. Find space to focus and collaborate at hundreds of locations close to home or around the world.",
+      "content2Tab1Ttext2": "Power your hybrid strategy, enhance employee experience and save on real estate costs by combining private office, coworking, and software solutions.",
+      "content2LearnMore": "Learn more"
+    }
+  ],
+  "ContactForm": [
+    {
+      "id": 8,
+      "Component3Title": "Let us find your ideal workspace",
+      "Component3Description": "Complete the form and a WeWork team member will be in touch with you shortly",
+      "Component3SelectOption1": "Bharat",
+      "Component3SelectOption2": "bhutan",
+      "Component3SelectOption3": "Japan",
+      "Component3Agreement": "By clicking the button below, you agree to our",
+      "Component3AgreementTnC": "Terms of Service",
+      "Component3AgreementPolicy": "Global Privacy Policy"
+    }
+  ],
+  "GlobalNetwork": [
+    {
+      "id": 9,
+      "Content4Header": "Global network",
+      "Content4Title": "Workspace where and when you need it",
+      "Content4Discription": "With over 700 global locations, teams can do their best work in more places, whether it’s being productive closer to home, having access to multiple workspaces, or collaborating at a central office.",
+      "Component4ExploreLocations": "Explore locations",
+      "Content4Image": "https://ctfassets.imgix.net/vh7r69kgcki3/5zgqBvLQ7hx0Pr7Ld6z0Uo/cee7093a699e20d6c39c38c72877e623/Web_150DPI-ww-locations-map_April-2019__1_-01.jpg?auto=format%20compress&fit=crop&q=50&w=1200&h=675"
+    }
+  ],
+  "EmpoweringTomorrow": [
+    {
+      "id": 10,
+      "Component5ContainerText1H2": "Empowering tomorrow’s world at work",
+      "Component5ContainerText1P": "For over a decade, we’ve been leading the future of flexible work. From freelancers to Fortune 500s, we’re helping our members reimagine the ways they work.",
+      "Component5ContainerTextViewMore": "View more",
+      "Component5ContainerCard1": "https://ctfassets.imgix.net/vh7r69kgcki3/6RWiW6nRjE0Opu3rMrmyNA/46e4a7a7cec8a942949693ef532f6012/logo_microsoft.png?auto=format%20compress&fit=crop&q=50&w=100",
+      "Component5ContainerCard2": "https://ctfassets.imgix.net/vh7r69kgcki3/557AtRn8tgjcVnmrXM5dPK/c6cc549473c56a285007f57a57b4bd94/pfizer.png?auto=format%20compress&fit=crop&q=50&w=100",
+      "Component5ContainerCard3": "https://ctfassets.imgix.net/vh7r69kgcki3/6ucfeSUkXAQhX3LvdjHaL4/53586fbd893593b8ce3b2c3904160cd9/samsung.png?auto=format%20compress&fit=crop&q=50&w=100",
+      "Component5ContainerCard4": "https://ctfassets.imgix.net/vh7r69kgcki3/4UwH80gQwn4Bzsgsppp6oc/fb1ddac85d9a2724a124114933713917/Salesforce_logo.png?auto=format%20compress&fit=crop&q=50&w=100",
+      "Component5ContainerCard5": "https://ctfassets.imgix.net/vh7r69kgcki3/3f7ZKaZZF7tSAQfCA7Zs8P/41ea5b9545b4f293661db6cf95c80d78/visa.png?auto=format%20compress&fit=crop&q=50&w=100",
+      "Component5ContainerCard6": "https://ctfassets.imgix.net/vh7r69kgcki3/2UDkm4Ldvxo5l1cdbNrGXn/8d4b43b9e9dd33b966b94304a130dc32/zoom.png?auto=format%20compress&fit=crop&q=50&w=100"
+    }
+  ],
+  "WorkspaceTrends": [
+    {
+      "id": 11,
+      "Component6ContainerText1P": "IDEAS BY WEWORK",
+      "Component6ContainerText1H1": "Workspace trends and insights",
+      "Component6ContainerTextViewMore": "Read on",
+      "Content6ContentImage": "https://ctfassets.imgix.net/vh7r69kgcki3/5UOT0oT5krYm9t37ixk9zy/548775ae2e1430481ca24cf38204cfaa/Web_72DPI-20200313_WeWork_Salesforce-Tower-Atrium-San-Francisco_001.jpg?auto=compress&fit=crop&q=50&fm=jpeg&w=750&h=422",
+      "Component6ContainerText2P1": "RESEARCH STUDIES",
+      "Component6ContainerText2H2": "The importance of flexible office spaces",
+      "Component6ContainerText2P2": "A Cushman & Wakefield survey finds flexible offices are an important component of the global work ecosystem."
+    }
+  ],
+  "Blog": [
+    {
+      "id": 12,
+      "Component7ContainerBlogTextP1": "FLEXIBLE PRODUCTS",
+      "Component7ContainerBlogTextH2": "A cutting-edge workspace near Washington, D.C.",
+      "Component7ContainerBlogTextP2": "WeWork The Wilson is custom-designed for its home community",
+      "Component7ContainerBlogTextI1": "https://ctfassets.imgix.net/vh7r69kgcki3/fmB4E8GeWAFzlAAwH7YJe/74d1c7ec6f88513f6cfe431b6c0ca211/WeWork_The-Wilson_7272-Wisconsin-Ave_Bethesda_4_header-scaled.jpg?auto=compress&fit=crop&q=50&fm=jpeg&w=600&h=338",
+      "Component7ContainerBlogTextP12": "CASE STUDIES",
+      "Component7ContainerBlogTextH22": "How one remote creative agency went global, fast",
+      "Component7ContainerBlogTextP22": "WeWork The Wilson is custom-designed for its home community",
+      "Component7ContainerBlogTextI2": "https://ctfassets.imgix.net/vh7r69kgcki3/2lbHRv6oDxMnWDsuIPpd4Y/3fcc904abd7e9fcce1adb7a74bb71a9c/ElephantSkin_Miami_WeWork02_v1-800x450.jpg?auto=compress&fit=crop&q=50&fm=jpeg&w=600&h=338",
+      "Component7ContainerBlogTextP13": "CASE STUDIES",
+      "Component7ContainerBlogTextH23": "How four founders use WeWork All Access",
+      "Component7ContainerBlogTextP23": "WeWork The Wilson is custom-designed for its home community",
+      "Component7ContainerBlogTextI3": "https://ctfassets.imgix.net/vh7r69kgcki3/4GkcQ3suRb1BFE94sKlW4c/8a323151d003ffa6cdc6c4db73307007/ATLAS_9385_EDIT_v1-1536x864.jpg?auto=compress&fit=crop&q=50&fm=jpeg&w=600&h=338"
+    }
+  ],
+  "Footer": [
+    {
+      "id": 13,
+      "FooterMenuHeading1": "Company",
+      "FooterMenuList1Option1": "Global Locations",
+      "FooterMenuList1Option2": "Mission",
+      "FooterMenuList1Option3": "Inclusion & Diversity",
+      "FooterMenuList1Option4": "Careers",
+      "FooterMenuList1Option5": "Investors",
+      "FooterMenuList1Option6": "Newsroom",
+      "FooterMenuList1Option7": "Blog",
+      "FooterMenuHeading2": "Partnerships",
+      "FooterMenuList2Option1": "Brokers",
+      "FooterMenuList2Option2": "Landlords",
+      "FooterMenuList2Option3": "Refer a Friend",
+      "FooterMenuList2Option4": "Event Planners",
+      "FooterMenuHeading3": "Support",
+      "FooterMenuList3Option1": "Contact Us",
+      "FooterMenuList3Option2": "Member Login",
+      "FooterMenuList3Option3": "Help Center",
+      "FooterMenuList3Option4": "COVID Response",
+      "FooterLanguageLabel": "Language",
+      "FooterLanguageListOption1": "English",
+      "FooterLanguageListOption2": "Spanish",
+      "FooterLanguageListOption3": "French",
+      "FooterLanguageListOption4": "Japanese",
+      "FooterMenusAllLocation": "All locations",
+      "FooterContact": "1800123999000",
+      "FooterAddressP1": "WeWork Companies LLC",
+      "FooterAddressP2": "12 East 49th Street",
+      "FooterAddressP3": "Floor 3",
+      "FooterAddressP4": "New York, NY 10017",
+      "FooterLegalMenuOption1": "Privacy",
+      "FooterLegalMenuOption2": "Terms",
+      "FooterLegalMenuOption3": "Cookie Policy",
+      "FooterLegalMenuOption4": "Cookies Settings",
+      "FooterLegalMenuOption5": "Accessibility",
+      "FooterLegalMenuOption6": "Sitemap",
+      "FooterCopyright": "Copyright © 2023 WeWork. All rights reserved.",
+      "FooterLogo": "https://www.wework.com/vanilla-assets/images/we_logo.d25b3dd4f56ad4661c0a3fe77bd65845.svg"
+    }
+  ]
+}

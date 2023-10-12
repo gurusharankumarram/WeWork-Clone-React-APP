@@ -1,0 +1,95 @@
+/* Admin.css */
+.Adminh2 {
+    font-size: 32px;
+    margin: 0;
+    margin-top: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.AdminLogoutBtn {
+    text-align: right;
+    margin-top: -4rem;
+    margin-bottom: 2rem;
+}
+
+.AdminLogoutBtn button {
+    background-color: #007bff;
+    font-size: medium;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10%;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.AdminLogoutBtn button:hover {
+    background-color: #0056b3;
+}
+
+.Admincard-container {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Admincard {
+    width: calc(25% - 20px);
+    /* 4 cards in a row with spacing */
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+    border: 2px solid #117fb6;
+    border-radius: 2px 10px 2px 10px;
+}
+
+.Admincard:hover {
+    transform: scale(1.05);
+    /* Increase size on hover */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    /* Add a shadow on hover */
+}
+
+
+.Adminbutton-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+}
+
+.Adminedit-button,
+.Adminview-button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for the edit button */
+.Adminedit-button {
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+}
+
+.Adminedit-button:hover {
+    background-color: #277a2b;
+}
+
+/* Style for the view button */
+.Adminview-button {
+    background-color: #008cba;
+    color: white;
+    text-decoration: none;
+}
+
+.Adminview-button:hover {
+    background-color: #034d6d;
+}

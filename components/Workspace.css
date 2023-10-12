@@ -1,0 +1,167 @@
+/* Header for "What are you looking for?" and "View all solutions --->" */
+.workspace-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: -5rem 6.5rem 0 3.8rem;
+  font-size: 1rem;
+  padding: 1rem 0;
+  margin-top: 10px;
+}
+
+.left-text {
+  margin-left: 3.5rem;
+  font-family: "WeWork Serif", "Georgia", serif;
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.right-text {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: blue;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: "Apercu", Avenir, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, "Calibri", "Roboto", Arial, sans-serif;
+  margin-right: 1rem;
+}
+
+/* Container for workspace cards */
+.workspace-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -5px;
+  padding: 0.4375rem 1rem;
+  margin-left: 6.5rem;
+  margin-right: 5.8rem;
+}
+
+/* Individual workspace card */
+.workspace-card {
+  display: flex;
+  align-items: center;
+  width: calc(25% - 20px);
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  text-align: left;
+  margin-bottom: 20px;
+  border: 1px solid #868787;
+  transition: box-shadow 0.3s ease-in;
+}
+
+.workspace-card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Workspace image */
+/* .workspace-image {
+  max-width: 100%;
+  height: auto;
+  margin-right: 1rem;
+  margin-left: 1rem;
+} */
+
+.workspace-image {
+  width: 90px;
+  height: auto;
+  margin-right: 0.2rem;
+  margin-left: 1rem;
+  margin-top: 5rem;
+}
+
+
+/* Workspace title */
+.workspace-title {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+  margin-bottom: 0;
+  margin-left: 1.5rem;
+}
+
+/* Workspace description */
+.workspace-description {
+  color: #545e77;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  margin-bottom: 0.5rem;
+  margin-left: 1.5rem;
+}
+
+/* Team size text */
+.workspace-team-size {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.75rem;
+  font-family: "Apercu Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  border: 1px solid #e3e3e3;
+  border-radius: 0.25rem;
+  padding: 0.125rem 0.4375rem;
+  line-height: 1.125rem;
+  margin-left: 1.5rem;
+}
+
+.right-text-mobile {
+  display: none;
+}
+
+/* styles for mobile screens here */
+@media (max-width: 768px) {
+  .left-text {
+    text-align: start;
+    margin-left: -40px;
+    margin-bottom: 0.1rem;
+    margin-top: 8rem;
+    font-size: 20px;
+  }
+
+  .workspace-card {
+    width: 99%;
+  }
+
+  .workspace-container {
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .right-text {
+    text-align: center;
+    margin: 1rem 0;
+    display: none;
+  }
+
+  .right-text-mobile {
+    display: block;
+    justify-content: left;
+    margin-left: 20px;
+    cursor: pointer;
+    color: blue;
+    background: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: "Apercu", Avenir, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, "Calibri", "Roboto", Arial, sans-serif;
+    margin-top: -0.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .workspace-title,
+  .workspace-description,
+  .workspace-team-size {
+    margin-left: 20px;
+  }
+
+  .workspace-team-size svg {
+    margin: 0 auto;
+  }
+
+}

@@ -1,0 +1,219 @@
+/* Component6Empowering.css */
+
+.Component6Container {
+    width: 88%;
+    height: 300px;
+    padding: 20px;
+    margin-left: 5.1rem;
+}
+
+.Component6ContainerText {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.Component6ContainerText1 {
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+.Component6ContainerText1P {
+    font-size: 16px;
+    font-family: "Apercu", "SFMono-Regular", monospace;
+    font-weight: 600;
+    color: #545e77;
+}
+
+.Component6ContainerText1H1 {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: "WeWork Sefif", "Georgia", serif
+}
+
+.Component6ContainerTextViewMore {
+    font-size: 16px;
+    cursor: pointer;
+    color: #0000ff;
+    margin-right: 2%;
+    margin-top: 1rem;
+}
+
+
+.Component6ContainerText2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 2rem;
+}
+
+.Content6-image-container {
+    flex: 1;
+    margin-right: 20px;
+    background-color: #E3E3E3;
+}
+
+.Content6-content-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+
+
+.Component6ContainerText2Text {
+    color: #000000;
+    font-size: 16px;
+    font-family: "Apercu", Avenir, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, "Calibri", "Roboto", Arial, sans-serif;
+    margin: 0px 12px;
+    padding: 0px 0px 0px 32px;
+    margin-right: 3rem;
+    width: 40%;
+}
+
+.Component6ContainerText2-p1 {
+    font-family: "Apercu Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 14px;
+    position: relative;
+}
+
+.Component6ContainerText2-p1::after {
+    content: " ------------";
+    position: absolute;
+    bottom: 50%;
+    left: 25%;
+    width: 15%;
+    height: 1.5px;
+    background-color: black;
+    display: block;
+    content: " ";
+}
+
+.Component6ContainerText2-p1:hover {
+    text-decoration: underline;
+}
+
+.Component6ContainerText2-h2 {
+    font-family: "Apercu", Avenir, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, "Calibri", "Roboto", Arial, sans-serif;
+    font-size: 32px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.Component6ContainerText2-h2:hover {
+    text-decoration: underline;
+}
+
+.Component6ContainerText2-p2 {
+    font-family: "Apercu", Avenir, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, "Calibri", "Roboto", Arial, sans-serif;
+    font-size: 16px;
+    width: 100%;
+    line-height: 150%;
+}
+
+.Component6ContainerText2-p2:hover {
+    text-decoration: underline;
+}
+
+.Component6BottomBorder {
+    margin-top: 2rem;
+    border-bottom: 2px solid #dddbdb;
+}
+
+.Component6ContainerTextViewMoreMobile{
+    display: none;
+}
+
+
+
+
+/* Styles for mobile */
+@media screen and (max-width: 768px) {
+    .Component6Container {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        width: 90%;
+        margin-left: 0; /* Remove the negative margin-left */
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .Component6ContainerText {
+        flex-direction: column;
+        text-align: left;
+        width: 93%;
+    }
+
+    .Component6ContainerText1 {
+        order: 1;
+        width: 95%;
+        margin-bottom: 10px;
+    }
+
+    .Component6ContainerText1H1 {
+        font-size: 20px;
+    }
+
+    .Component6ContainerText2 {
+        flex-direction: column;
+        order: 2;
+        width: 95%;
+    }
+
+    .Content6-image-container {
+        order: 3;
+        width: 95%;
+        margin-top: 10px;
+
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .Component6ContainerText2Text {
+        flex-direction: column;
+        order: 4;
+        width: 95%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .Component6ContainerText2-p1 {
+        order: 5;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .Component6ContainerText2-p1::after {
+        left: 45%;
+        width: 10%;
+        height: 1px;
+    }
+
+    .Component6ContainerText2-h2 {
+        order: 6;
+        text-align: left;
+        font-size: 16px;
+    }
+
+    .Component6ContainerText2-p2 {
+        order: 7;
+        text-align: left;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    .Component6ContainerTextViewMore {
+        display: none;
+    }
+
+    .Component6BottomBorder {
+        display: block;
+        margin-left: 0.5rem;
+        margin-right: 0/5rem;
+    }
+}

@@ -1,0 +1,111 @@
+/* Component7Blog.css */
+
+/* Container for the card-like layout */
+.Component7Container {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    gap: 0px;
+    margin-top: 15rem;
+    width: 90%;
+    margin-left: 5rem;
+}
+
+/* Styling for the image */
+.Component7ContainerBlog-ImageContainer {
+    margin-bottom: 20px;
+    margin-right: 2rem;
+}
+
+.Component7ContainerBlog-Image {
+    /* width: 95%; */
+    /* width: 421px;
+    height: 237px; */
+
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.Component7ContainerBlogText{
+    width: 95%;
+    margin-left: 1px;
+}
+
+/* Styling for paragraph p1 */
+.Component7ContainerBlogText-p1 {
+    font-family: "Apercu Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 14px;
+    position: relative;
+
+}
+
+.Component7ContainerBlogText-p1::after {
+    content: " ------------";
+    position: absolute;
+    bottom: 45%;
+    left: 32%;
+    width: 15%;
+    height: 1px;
+    background-color: black;
+    display: block;
+    content: " ";
+}
+
+.Component7ContainerBlogText-p1:hover {
+    text-decoration: underline;
+}
+
+/* Styling for heading h2 */
+.Component7ContainerBlogText-h2 {
+    font-family: "Apercu", Avenir, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, "Calibri", "Roboto", Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.Component7ContainerBlogText-h2:hover {
+    text-decoration: underline;
+}
+
+/* Styling for paragraph p2 */
+.Component7ContainerBlogText-p2 {
+    font-family: "Apercu", Avenir, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, "Calibri", "Roboto", Arial, sans-serif;
+    font-size: 16px;
+    width: 100%;
+    line-height: 150%;
+}
+
+.Component7ContainerBlogText-p2:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Media query for mobile responsiveness and horizontal scrolling */
+@media (max-width: 768px) {
+    .Component7Container {
+        flex-direction: row;
+        overflow-x: auto;
+        padding-bottom: 20px;
+        margin: 0;
+        max-width: 337px;
+    }
+
+    .Component7ContainerBlog {
+        flex: 0 0 auto;
+        margin-right: 1rem;
+        max-width: 339px;
+    }
+
+    .Component7ContainerBlog-Image{
+        flex: 0 0 auto;
+        margin-right: 1rem;
+        max-width: 339px;
+    }
+
+    .Component7ContainerBlogText-p1::after {
+        left: 45%;
+    }
+}

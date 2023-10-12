@@ -1,0 +1,275 @@
+/*        Content 2 CSS        */
+
+.content2-tab1.active-tab,
+.content2-tab2.active-tab {
+    border-bottom: 2px solid blue;
+    color: blue;
+}
+
+
+.content2-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin-left: -13px;
+    margin-right: 23px;
+    margin-top: 40px;
+    width: 511.97px;
+    /* height: 1320px; */
+    height: 600px;
+    margin-bottom: -5rem;
+    margin-top: -1rem;
+}
+
+.content2-page {
+    /* max-width: 1200px; */
+    background: linear-gradient(to bottom, #f4f1f17c 40%, white);
+    /* background: linear-gradient(to bottom, #9761617c 5%, white); */
+    border-top-right-radius: 35%;
+    margin-bottom: 5px;
+    margin: auto;
+    margin-left: 8rem;
+    width: 511.97px;
+    /* height: 1224px; */
+}
+
+.content2-grid {
+    display: flex;
+    align-items: center;
+}
+
+.content2-content {
+    flex: 1;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-top: 0.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.content2-title {
+    font-size: 24px;
+    margin-top: -60px;
+    margin-left: 15PX;
+    margin-bottom: 12px;
+    font-family: "WeWork Serif", "Georgia", "serif"
+}
+
+
+.content2-description {
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    height: 100%;
+    width: 100%;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2.5rem;
+}
+
+
+content2nav {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+    width: 512px;
+}
+
+.content2-tabs {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-bottom: -1rem;
+    margin-right: 2rem;
+
+}
+
+
+.content2-tab1 {
+    font-size: 16px;
+    color: blue;
+    border-bottom: 1px solid #e3e3e3;
+    width: 100%;
+    text-align: center;
+    padding: 0 1rem 1rem;
+    cursor: pointer;
+    min-width: 13rem;
+}
+
+.content2-tab2 {
+    font-size: 16px;
+    color: blue;
+    border-bottom: 1px solid #e3e3e3;
+    width: 100%;
+    text-align: center;
+    padding: 0 1rem 1rem;
+    cursor: pointer;
+    min-width: 10rem;
+}
+
+.content2-card {
+    /* margin-top: 20px; */
+    padding: 0.5rem 0;
+}
+
+.content2-card-item {
+    display: none;
+}
+
+.content2-card-item.active {
+    display: block;
+
+    font-family: "Apercu", Avenir, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, "Calibri", "Roboto", Arial, sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.618;
+}
+
+.content2-text {
+    /* font-size: 16px;
+    margin-bottom: 10px; */
+
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.content2-learn-more {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.content2-learn-more a {
+    /* color: blue;
+    text-decoration: underline; */
+    color: blue;
+    text-decoration: none;
+    background: none;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+
+.content2-img-container {
+    flex: 1;
+    padding: 0px;
+    text-align: right;
+    border-radius: 0.25rem;
+    box-shadow: 1.5rem 1.5rem 0.875rem 0 rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 28.125rem;
+    margin-left: 2.5rem;
+}
+
+.content2-img {
+    height: 410px;
+    width: 300px;
+    display: block;
+    border-radius: 5px;
+}
+
+
+
+/* style for mobile */
+
+@media (max-width: 768px) {
+
+    .content2-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content2-img-container {
+        order: 1;
+        margin: 0;
+        box-shadow: none;
+        text-align: left;
+        border-radius: none;
+        width: 100%;
+        margin-left: 3.5rem;
+        margin-top: 4rem;
+    }
+
+    .content2-page {
+        background: none;
+        border-top-right-radius: none;
+        margin-bottom: none;
+        margin: auto;
+        margin-left: none;
+        width: none;
+    }
+
+    .content2-content {
+        order: 2;
+        text-align: center;
+        margin: 0;
+    }
+
+    .content2-title {
+        margin-top: 1.5rem;
+        margin-bottom: -0.5rem;
+        font-size: 23px;
+        margin-left: 3rem;
+        width: 350px;
+    }
+
+    .content2-tabs {
+        order: 3;
+        font-size: 7px;
+        margin-left: 1.7rem;
+        margin-right: 0.8rem;
+    }
+
+    .content2-card {
+        order: 4;
+        margin: 0;
+    }
+
+    .content2-tab1,
+    .content2-tab2 {
+        width: auto;
+        min-width: auto;
+    }
+
+    .content2-text {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.75rem;
+        margin-bottom: 1rem;
+        width: 350px;
+        margin-left: 3rem;
+    }
+
+    .content2-learn-more {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.75rem;
+        margin-bottom: 1rem;
+        margin-left: 3rem;
+    }
+    
+    .content2-learn-more a {
+        color: blue;
+        text-decoration: none;
+        background: none;
+        border: 0;
+        padding: 0;
+        cursor: pointer;
+    }
+    .content2-container{
+        width: 100%;
+        height: auto;
+        overflow-x: hidden;
+    }
+    
+}

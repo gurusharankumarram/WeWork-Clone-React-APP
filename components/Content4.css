@@ -1,0 +1,145 @@
+.Content4-content-container {
+    background-color: #f7f7f7;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    width: 90%;
+    height: 550px;
+    margin-left: 3rem;
+    color: black;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Content4-text-container {
+    flex: 1;
+    padding: 20px;
+
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 60px;
+    width: 100%;
+    max-width: 1440px;
+    margin-top: -3rem;
+
+}
+
+.Content4-header {
+    margin-bottom: 1.5rem;
+    font-family: "Apercu Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -3rem;
+}
+
+.Content4-title {
+    margin-bottom: 1.5rem;
+    font-size: 30px;
+    font-family: "WeWork Serif", "Georgia", "Serif";
+    font-weight: 600;
+    line-height: 2.75rem;
+}
+
+.Content4-discription {
+    font-size: 18px;
+    font-family: "WeWork Serif", "Georgia", "Serif";
+    font-weight: 400;
+    line-height: 1.75rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Content4-location {
+    text-decoration: none;
+    font-size: 16px;
+    font: bold;
+}
+
+.Content4-location-icon{
+    color: #0000ff;
+    margin-left: 5px;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 10px 10px;
+    margin-top: -5rem;
+
+}
+
+.Content4-image-container img {
+    height: 448px;
+    width: 760px;
+    margin-right: 2rem;
+}
+
+
+@media (max-width: 768px) {
+    .Content4-content-container {
+      flex-direction: column;
+      height: auto;
+      align-items: center;
+      margin-left: 1.3rem;
+      margin-top: 11rem;
+    }
+
+    .Content4-header {
+        order: 1;
+        margin-top: 5rem;
+        margin-left: -2rem;
+      }
+  
+    .Content4-text-container {
+      order: 3;
+      margin-top: -4rem;
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+  
+    .Content4-title {
+      font-size: 20px;
+      line-height: 2rem;
+      margin-left: -2rem;
+      width: 100%;
+      justify-content: start;
+    }
+  
+    .Content4-discription {
+      order: 4;
+      margin-left: -2rem;
+      font-size: 20px;
+      font-weight: 300;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }
+  
+    .Content4-location {
+      order: 5;
+      margin-top: 1rem;
+      text-align: center;
+    }
+  
+    .Content4-image-container {
+      order: 2;
+      margin-top:-1rem;
+    }
+  
+    .Content4-image-container img {
+      height: auto;
+      width: 95%;
+      margin-top: 2rem;
+      margin-right: 0;
+    }
+
+    .Content4-location {
+        margin-left: -2rem;
+    }
+    
+  }
+  

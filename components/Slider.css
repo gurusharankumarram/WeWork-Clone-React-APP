@@ -1,0 +1,120 @@
+/* .img-container {
+    background: url("image/image1.jpg") center/cover no-repeat;
+    width: 68%;
+    min-height: 60vh;
+    border-radius: 1rem;
+    position: relative;
+    margin-left: 26%;
+    margin-top: 0.9%;
+  }
+  
+  .btn-right {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background-color: #3B117E;
+    color: #fff;
+    transform: translate(50%, -50%);
+    border: 0.2rem solid #3CBFF8;
+    font-size: 1.5rem;
+    padding: 15px;
+    cursor: pointer;
+  }
+  
+  .slider-image {
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+   */
+
+   
+.img-container {
+  width: 72%;
+  min-height: 90vh;
+  border-radius: 1rem;
+  position: relative;
+  margin-left: 21%;
+  margin-top: 0.9%;
+}
+
+.img-box {
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.5s ease;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.btn {
+  background: white;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: -40px;
+}
+
+.btn:hover {
+  background: rgb(163, 163, 244);
+}
+
+.btn i {
+  font-size: 24px;
+  color: #0000FF;
+}
+
+.custom-fa-icon {
+  font-size: 24px;
+  color: #0000FF;
+}
+
+.slider-form-container-h1{
+  display: none;
+}
+
+
+@media (max-width: 768px) {
+
+  .slider-form-container-h1{
+    display: block;
+    text-align: start;
+    margin-left: 15px;
+    font-size: medium;
+    width: 350px;
+    margin-top: -20px;
+
+  }
+
+  .img-container {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: auto;
+    position: relative;
+    /* margin-bottom: 1rem; */
+  }
+
+  .img-box {
+    border-radius: 5px;
+  }
+
+  .btn {
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    width: 50px;
+    height: 50px;
+  }
+}
